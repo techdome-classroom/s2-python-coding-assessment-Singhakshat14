@@ -18,6 +18,7 @@ class Solution(object):
 
         for char in reversed(s):
             current_value=roman_value[char]
+            if cu
 
 
 

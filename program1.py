@@ -9,7 +9,10 @@ class Solution(object):
         for char in s:
             if char in bracket_pair:
                 if char in bracket_pair:
-                    if not stack or stack.pop()
+                    if not stack or stack.pop() !=bracket_pair[char]:
+                        return False
+                else:
+                    stack.append(char)
         pass
 
 

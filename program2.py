@@ -17,7 +17,7 @@ class Solution(object):
         prev_value=0
 
         for char in reversed(s):
-            
+            current_value=roman_value[char]
 
 
 

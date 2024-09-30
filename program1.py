@@ -10,8 +10,8 @@ class Solution(object):
             if char in bracket_pair:
                     if not stack or stack.pop() !=bracket_pair[char]:
                         return False
-                else:
-                    stack.append(char)
+            else:
+                stack.append(char)
         return len(stack) == 0
 
 

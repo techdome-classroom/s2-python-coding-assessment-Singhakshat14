@@ -13,6 +13,11 @@ class Solution(object):
             'D': 500,
             'M': 1000
         }
+        total=0
+        prev_value=0
+
+        for char in reversed(s):
+            
 
 
 

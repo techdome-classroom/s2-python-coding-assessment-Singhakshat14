@@ -4,6 +4,8 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
+        stack=[]
+        bracket_pair={}
         pass
 
 
